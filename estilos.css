@@ -12,6 +12,17 @@ p {
 
 .navbar {
     background-color: #2C3E50;
+    overflow: hidden;
+    padding: 20px 10px;
+    position: relative;
+    width: 100%;
+    top: 0;
+    transition: 1s;
+    z-index: 99; 
+}
+
+.fixed {
+    position:fixed;
 }
 
 .navbar-brand, .navbar-nav a {
