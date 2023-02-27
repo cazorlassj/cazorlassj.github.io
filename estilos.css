@@ -24,3 +24,10 @@ p {
 .fixed {
     position:fixed;
 }
+.navbar-brand, .navbar-nav a {
+    color: white !important;
+}
+
+.navbar-brand:hover, .navbar-nav a:hover {
+    color: #F4D03F !important;
+}
